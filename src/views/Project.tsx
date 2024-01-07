@@ -16,6 +16,17 @@ import First08 from "../image/first-08.png";
 import First09 from "../image/first-09.png";
 import First10 from "../image/first-10.png";
 import First11 from "../image/first-11.png";
+
+import Second01 from "../image/second-01.png";
+import Second02 from "../image/second-02.png";
+import Second03 from "../image/second-03.png";
+import Second04 from "../image/second-04.png";
+import Second05 from "../image/second-05.png";
+import Second06 from "../image/second-06.png";
+import Second07 from "../image/second-07.png";
+import Second08 from "../image/second-08.png";
+import Second09 from "../image/second-09.png";
+
 import Third101 from "../image/third-01.png";
 import Third102 from "../image/third-02.png";
 import Third103 from "../image/third-02.png";
@@ -120,63 +131,63 @@ const Project = () => {
                     key: '한살림 erp웹',
                     name: '한살림 ERP',
                     url: '',
-                    img: '',
+                    img: Second01,
                     description: '한살림 Si 프로젝트(30억규모)로 ERP 솔루션을 신규로 구축하는 단독 퍼블리싱 (7개월 투입)작업을 담당 하고 있습니다. 공통과 표준을 잡고 가이드를 제시하여 유지보수가 편리하도록 개발하고 있습니다.웹 접근성을 고려하여 작업했습니다. 웹의 색상 대비, 선명도, 텍스트 크기 등을 고려하였고 시력 장애가 있는 사용자를 위해 글자 크기를 조절할 수 있도록 js를 이용하여 작업하였습니다. 또한 웹의 내용을 스크린 리더와 같은 보조 기술을 사용하여 접근 가능하도록 했습니다.', 
                 },
                 {
                     key: 'H마트 글로벌 패키지웹',
                     name: 'H마트 글로벌 패키지',
                     url: '',
-                    img: '',
+                    img: Second02,
                     description: '토마토 솔루션을 기반으로 미국 한인 마트의 솔루션을 구축하는 작업을 하고 있습니다. 환경에 맞는 UiUx 기획/디자인/퍼블리싱에 전반적으로 참여하였습니다.', 
                 },
                 {
                     key: '토마토 B2B scm 웹앱',
                     name: '토마토 B2B SCM',
                     url: '',
-                    img: '',
+                    img: Second03,
                     description: '자사 솔루션으로 개발된 B2B APP이며 모바일 웹 퍼블리싱 기여도 100% 입니다. 기존에 사용하지 않았던 SCSS를 활용하여 개발하였고, 이를 통해 중복 코드를 줄이고 재활용성 있는 코드로 작업 효율성을 높였습니다.', 
                 },
                 {
                     key: '토마토 소개 홈페이지웹',
                     name: '토마토 소개 홈페이지',
                     url: 'https://tomato-market.co.kr/',
-                    img: '',
+                    img: Second04,
                     description: '반응형 웹으로 fullpage, slide, svg animation, scrolltop 스크립트를 작성하여 완성하였습니다. 토마토 솔루션을 소개하고 문의하는 홈페이지입니다. 기여도 100%작업물입니다.', 
                 },
                 {
                     key: '김포빰빰투어웹',
                     name: '김포빰빰투어',
                     url: '',
-                    img: '',
+                    img: Second05,
                     description: '퍼블리싱 신규 프로젝트 기여도 100% 로 적응 형으로 제작하였습니다. 같은 계열사의 김포 시 프로젝트에 참여하여 작업한 Ebook형 웹입니다. API를 사용하여 커스텀하였습니다.', 
                 },
                 {
                     key: '토마토 매니저앱웹',
                     name: '토마토 매니저',
                     url: '',
-                    img: '',
+                    img: Second06,
                     description: '퍼블리싱 유지보수 및 신규 작업 기여도 60% 하이브리드 웹입니다. 신규 기획에 따른 페이지/컴포넌트 추가 작업을 하였습니다. 기업에 남는 작업으로는 마감 세일 프로모션으로 터치를 통해 전시 상품의 순서를 변경할 수 있으며 슬라이드를 통해 간편하게 상품의 품절 처리가 가능하게 구현하였습니다.', 
                 },
                 {
                     key: '토마토 ERP웹',
                     name: '토마토 ERP',
                     url: '',
-                    img: '',
+                    img: Second07,
                     description: '퍼블리싱 유지 보수 및 신규 작업 기여도 45% 크롬 1920 해상도에 최적화 되어있는 자사 솔루션으로 개발된 ERP 웹입니다. 사용자가 전반적으로 운영 관리를 할 수 있는 솔루션입니다.', 
                 },
                 {
                     key: '토마토 사용자앱',
                     name: '토마토 사용자앱',
                     url: '',
-                    img: '',
+                    img: Second08,
                     description: '퍼블리싱 유지 보수 및 신규 작업 기여도 60% 의 웹/앱입니다. 오류 개선과 신규 페이지 작업과 기획 변경에 대해 유지 보수 작업을 하였습니다. 주도적으로 작업한 것은 css코드를 자사와 맡게 공통화 하여 개선하였습니다.', 
                 },
                 {
                     key: '웹POP',
                     name: '웹POP',
                     url: '',
-                    img: '',
+                    img: Second09,
                     description: '개별 마트가 복잡한 프로그램에 의존하지 않고 쉽고 빠르게 웹pop를 제작할 수 있는 디자인 툴 솔루션입니다. 1920px에 최적화 되었으며 웹 퍼블리싱 기여도 90%입니다.', 
                 },
             ]
@@ -274,14 +285,14 @@ const Project = () => {
                            )})
                         }
                     </ul>)
-                    : name === "Second Company" ? (<ul className="grid grid-cols-3">
+                    : name === "Second Company" ? (<ul className="grid grid-cols-4 gap-x-10 gap-y-20">
                         {projectData[1].project.map((data: I.ProjcetDetailData)=>{
                             return(
-                                <li key={data.key}>
+                                <li key={data.key} className="group">
                                     <a href={data.url}>
-                                        <img src={data.img} alt={data.name + "썸네일"} loading="lazy" className="w-full rounded-lg mb-4 group-hover:opacity-50 group-hover:-translate-y-1 duration-300 transition-all"/>
-                                        <h3>{data.name}</h3>
-                                        <p>{data.description}</p>
+                                        <img className="w-full rounded-lg mb-4 group-hover:opacity-50 group-hover:-translate-y-1 duration-300 transition-all border-2 border-solid border-black" src={data.img} alt={data.name + "썸네일"} loading="lazy"/>
+                                        <h3 className="text-lg font-bold">{data.name}</h3>
+                                        <p className="text-base">{data.description}</p>
                                     </a>
                                 </li>
                            )})
@@ -292,7 +303,7 @@ const Project = () => {
                             return(
                                 <li key={data.key} className="group">
                                     <a href={data.url}>
-                                        <img src={data.img} alt={data.name + "썸네일"} loading="lazy" className="w-full rounded-lg mb-4 group-hover:opacity-50 group-hover:-translate-y-1 duration-300 transition-all border border-solid border-black"/>
+                                        <img src={data.img} alt={data.name + "썸네일"} loading="lazy" className="w-full rounded-lg mb-4 group-hover:opacity-50 group-hover:-translate-y-1 duration-300 transition-all border-2 border-solid border-black"/>
                                         <h3 className="text-lg font-bold">{data.name}</h3>
                                         <p className="text-base">{data.description}</p>
                                     </a>
