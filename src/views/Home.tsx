@@ -66,13 +66,13 @@ const Home = () => {
                 <div className="sticky" style={{marginTop: '1200px'}}>
                     <section className="pt-40 space-y-8 md:pt-20">
                         <Marquee className="text-8xl overflow-hidden leading-snug uppercase	font-deco" direction="left" speed={10} autoFill>
-                            <p>not afraid of new things</p>
+                            <p>not afraid of new things &nbsp;</p>
                         </Marquee>
                         <Marquee className="text-8xl overflow-hidden leading-snug uppercase	font-deco" direction="right" speed={10} autoFill>
-                            <p>challenging challenging 🙌🏼 </p>
+                            <p>challenging 🙌🏼 reusable  &nbsp;</p>
                         </Marquee>
                         <Marquee className="text-8xl overflow-hidden leading-snug uppercase	font-deco" direction="left" speed={10} autoFill>
-                            <p>continuous🏃🏽‍♀️ and steady 🤓 continuous and steady</p>
+                            <p>continuous🏃🏽‍♀️ and steady 🤓 continuous and steady &nbsp;</p>
                         </Marquee>
                     </section>
                     <section className="grid grid-cols-2 p-48 gap-10 md:grid-cols-1 md:px-10 md:py-20">
