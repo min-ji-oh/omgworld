@@ -11,7 +11,7 @@ const Header = () => {
     return(
         <header className="w-full flex items-center justify-between sticky top-0 left-0 bg-white z-10 px-10 h-20">
             <h1 className="z-10 font-deco flex">
-                <NavLink to="/" className="block group flex items-center justify-center w-[203px]">
+                <NavLink to="/" className="group flex items-center justify-center w-[203px]">
                   <span className="block group-hover:hidden text-2xl whitespace-nowrap h-full w-full">OMG WORLD</span> 
                   <span className="hidden group-hover:flex items-center h-full w-full"><img src={aboutMe} alt="개발하는 omg" className="h-16"/>minji</span>
                 </NavLink>
@@ -26,7 +26,7 @@ const Header = () => {
                     <li><a href="/">Home</a></li>
                     <li>
                         <button onClick={()=>{setToggleDepthBtn(!toggleDepthBtn)}}>Career</button>
-                        <ul className={`${toggleDepthBtn ? "visible h-auto" : "invisible h-0"} flex gap-20 mt-8 text-slate-500 text-3xl`}>                            
+                        <ul className={`${toggleDepthBtn ? "visible h-auto" : "invisible h-0"} flex gap-20 mt-8 text-slate-500 text-3xl md:flex-col`}>                            
                             <li className="hover:text-emerald-500"><a href="/project/1">• First</a></li>
                             <li className="hover:text-emerald-500"><a href="/project/2">• Second</a></li>
                             <li className="hover:text-emerald-500"><a href="/project/3">• Third</a></li>

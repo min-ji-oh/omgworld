@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import Marquee from "react-fast-marquee";
+import * as I from "../interface/StudyInterface";
+
 // component
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -31,7 +33,7 @@ const Home = () => {
         });
     }, []);
 
-    const studyList = [
+    const studyList: I.StudyData[] = [
         {
             key: 'react',
             title: 'React',
@@ -59,10 +61,10 @@ const Home = () => {
             <Header />
             <main>
                 <section className="start fixed left-0 top-0 w-full" style={{height: '1200px'}}>
-                    <div className="w-[400px] h-[400px] bg-white mx-auto sticky top-52 rounded-full drop-shadow-lg bg-gradient-to-r from-emerald-500 to-teal-500 " ref={visualRef}></div>
+                    <div className="w-[400px] h-[400px] md:w-72 md:h-72 bg-white mx-auto sticky top-52 rounded-full drop-shadow-lg bg-gradient-to-r from-emerald-500 to-teal-500 " ref={visualRef}></div>
                 </section>
                 <div className="sticky" style={{marginTop: '1200px'}}>
-                    <section className="pt-40 space-y-8">
+                    <section className="pt-40 space-y-8 md:pt-20">
                         <Marquee className="text-8xl overflow-hidden leading-snug uppercase	font-deco" direction="left" speed={10} autoFill>
                             <p>not afraid of new things</p>
                         </Marquee>
@@ -73,10 +75,10 @@ const Home = () => {
                             <p>continuous🏃🏽‍♀️ and steady 🤓 continuous and steady</p>
                         </Marquee>
                     </section>
-                    <section className="grid grid-cols-2 p-48 gap-10">
+                    <section className="grid grid-cols-2 p-48 gap-10 md:grid-cols-1 md:px-10 md:py-20">
                         <div className="flex flex-col gap-10">
                             <img src={Me} alt="오민지 Emoji" />
-                            <h2 className="text-4xl text-center font-bold">안녕하세요! <span className="text-emerald-500 font-deco">UI개발자</span> 오민지입니다.</h2>
+                            <h2 className="text-4xl text-center font-bold md:text-left">안녕하세요!<br className="hidden md:block" /> <span className="text-emerald-500 font-deco">UI개발자</span> 오민지입니다.</h2>
                         </div>
                         <div>
                             <h3 className="text-3xl mb-4">머무르지 않고 지속적으로 성장하며 빠르게 변화하는 프론트 언어를 습득하는 것을 좋아합니다.  그렇게 배운 언어를 코드를 활용 성 있게 사용합니다. </h3>
@@ -89,9 +91,9 @@ const Home = () => {
                             </Link>
                         </div>
                     </section>
-                    <section className="p-48 pt-0">
+                    <section className="p-48 pt-0 md:px-10 md:py-20">
                         <h1 className="mb-16 text-5xl font-bold text-center font-deco">Let's Study!</h1>
-                        <ul className="grid grid-cols-3 gap-x-10">
+                        <ul className="grid grid-cols-3 gap-x-10 md:grid-cols-1 md:gap-y-10">
                             {studyList.map((data)=>{
                                 return(
                                     <li className="flex flex-col group" key={data.key}>
