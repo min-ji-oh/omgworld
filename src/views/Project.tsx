@@ -245,7 +245,7 @@ const Project = () => {
         <div>
             <Header />
             <main onMouseMove={handleXy}>
-                <div className="w-20 h-20 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full absolute md:hidden" style={{transform: `translate(${containerXy.x}px, ${containerXy.y}px)`}}></div>
+                <div className="w-20 h-20 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full absolute lg:hidden" style={{transform: `translate(${containerXy.x}px, ${containerXy.y}px)`}}></div>
                 <section className="w-full h-screen flex flex-col items-center justify-evenly">
                     <div>
                         <h3 className="text-center text-lg text-slate-900 mb-4">{name}</h3>
@@ -255,8 +255,8 @@ const Project = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
                     </svg>
                 </section>
-                <section className="p-40 md:p-10">
-                    {name === "First Company" ? (<ul className="grid grid-cols-4 gap-x-10 gap-y-20 md:grid-cols-1 md:gap-y-20">
+                <section className="p-40 lg:p-10">
+                    {name === "First Company" ? (<ul className="grid grid-cols-4 gap-x-10 gap-y-20 lg:grid-cols-1 lg:gap-y-20">
                         {projectData[0].project.map((data: I.ProjcetDetailData)=>{
                             return(
                                 <li key={data.key} className="group" onClick={()=>{data.url ? window.open(data.url) : alert("해당 사이트가 만료되었거나 보안으로 인해 공개가 어려운 점 참고부탁드립니다.😓")}}>
@@ -268,7 +268,7 @@ const Project = () => {
                            )})
                         }
                     </ul>)
-                    : name === "Second Company" ? (<ul className="grid grid-cols-4 gap-x-10 gap-y-20 md:grid-cols-1 md:gap-y-20">
+                    : name === "Second Company" ? (<ul className="grid grid-cols-4 gap-x-10 gap-y-20 lg:grid-cols-1 lg:gap-y-20">
                         {projectData[1].project.map((data: I.ProjcetDetailData)=>{
                             return(
                                 <li key={data.key} className="group" onClick={()=>{data.url ? window.open(data.url) : alert("해당 사이트가 만료되었거나 보안으로 인해 공개가 어려운 점 참고부탁드립니다.😓")}}>
@@ -281,7 +281,7 @@ const Project = () => {
                            )})
                         }
                     </ul>)
-                    : (<ul className="grid grid-cols-2 gap-40 md:grid-cols-1 md:gap-y-20">
+                    : (<ul className="grid grid-cols-2 gap-40 lg:grid-cols-1 lg:gap-y-20">
                         {projectData[2].project.map((data: I.ProjcetDetailData)=>{
                             return(
                                 <li key={data.key} className="group" onClick={()=>{data.url ? window.open(data.url) : alert("해당 사이트가 만료되었거나 보안으로 인해 공개가 어려운 점 참고부탁드립니다.😓")}}>
